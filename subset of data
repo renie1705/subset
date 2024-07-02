@@ -1,0 +1,9 @@
+#create a subset data
+data("IMDb_Dataset") #accessto the data
+names(IMDb_Dataset)
+?IMDb_dataset
+View(IMDb_Dataset)
+#subset()
+summary(IMDb_Dataset$Year)
+#create a subset dataset based on Genre>20
+subset(IMDb_Dataset,Genre>20)
